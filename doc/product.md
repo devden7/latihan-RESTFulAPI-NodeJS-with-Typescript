@@ -1,4 +1,4 @@
-# Product API SPect
+# Product API Spec
 
 ## Add product
 
@@ -66,6 +66,10 @@ Response Body Error :
   "message": "Gagal mengambil product"
 }
 ```
+
+## Get single product
+
+Endpoint: GET /admin/:prodId
 
 ## Update product
 
