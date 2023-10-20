@@ -85,6 +85,10 @@ Response Body Error (Email atau password tidak valid) :
 
 Endpoint : PUT /account/updateAccount
 
+Headers :
+
+- Authorization : token
+
 Request Body :
 
 ```json
