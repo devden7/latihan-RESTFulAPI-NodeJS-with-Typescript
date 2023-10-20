@@ -71,6 +71,23 @@ Response Body Error :
 
 Endpoint: GET /admin/:prodId
 
+Response Body :
+
+```json
+{
+  "data": {},
+  "message": "Single product berhasil diambil"
+}
+```
+
+Response Body Error :
+
+```json
+{
+  "message": "Gagal mengambil singles product"
+}
+```
+
 ## Update product
 
 Endpoint : PUT /admin/update-product/:prodId
